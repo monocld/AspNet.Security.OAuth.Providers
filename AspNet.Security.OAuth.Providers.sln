@@ -198,6 +198,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{C2CA4B38-A
 		docs\line.md = docs\line.md
 		docs\linkedin.md = docs\linkedin.md
 		docs\moodle.md = docs\moodle.md
+		docs\monocloud.md = docs\monocloud.md
 		docs\odnoklassniki.md = docs\odnoklassniki.md
 		docs\okta.md = docs\okta.md
 		docs\patreon.md = docs\patreon.md
@@ -295,6 +296,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet.Security.OAuth.PingOne", "src\AspNet.Security.OAuth.PingOne\AspNet.Security.OAuth.PingOne.csproj", "{CF8C4235-6AE6-404E-B572-4FF4E85AB5FF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNet.Security.OAuth.JumpCloud", "src\AspNet.Security.OAuth.JumpCloud\AspNet.Security.OAuth.JumpCloud.csproj", "{8AF5DDBE-2631-4E71-9045-73A6356CE86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Security.OAuth.MonoCloud", "src\AspNet.Security.OAuth.MonoCloud\AspNet.Security.OAuth.MonoCloud.csproj", "{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -678,6 +681,10 @@ Global
 		{8AF5DDBE-2631-4E71-9045-73A6356CE86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AF5DDBE-2631-4E71-9045-73A6356CE86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AF5DDBE-2631-4E71-9045-73A6356CE86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -783,6 +790,7 @@ Global
 		{101681FB-569F-4941-B943-2AD380039BE0} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 		{CF8C4235-6AE6-404E-B572-4FF4E85AB5FF} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 		{8AF5DDBE-2631-4E71-9045-73A6356CE86B} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
+		{F476D6F5-6B43-4AB6-A09D-DCF2FCB04E75} = {C1352FD3-AE8B-43EE-B45B-F6E0B3FBAC6D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C7B54DE2-6407-4802-AD9C-CE54BF414C8C}
